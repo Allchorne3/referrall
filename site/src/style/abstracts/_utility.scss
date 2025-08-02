@@ -1,0 +1,31 @@
+/* //////////////////////
+	Utility Classes
+  /////////////////////// */
+  
+.is-page-anchor {
+	display: block;
+	font-size: 0;
+	position: relative;
+	top: -50px;
+}
+
+.hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+// PADDING
+.pt-0 { padding-top: 0 !important; }
+.pr-0 { padding-right: 0 !important; }
+.pb-0 { padding-bottom: 0 !important; }
+.pl-0 { padding-left: 0 !important; }
+.px-0 { padding-inline: 0 !important; }
+.py-0 { padding-block: 0 !important; }
+
+//MARGIN 
+.mt-0 { margin-top: 0 !important; }
+.mr-0 { margin-right: 0 !important; }
+.mb-0 { margin-bottom: 0 !important; }
+.ml-0 { margin-left: 0 !important; }
+.mx-0 { margin-inline: 0 !important; }
+.my-0 { margin-block: 0 !important; }

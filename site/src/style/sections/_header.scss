@@ -1,0 +1,37 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as m;
+
+/* //////////////////////
+  Header
+  /////////////////////// */
+
+#header {
+	padding: 2em 1rem;
+	display: flex;
+	justify-content: space-between;
+
+	@include m.desktop {
+		background: coral;
+	}
+}
+
+.navbar {
+	&-list {
+		display: flex;
+		gap: 1rem;
+		
+		a {
+			color: $text;
+			text-decoration: none;
+			
+			&:focus,
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+[aria-current="page"] {
+	font-weight: bold;
+}

@@ -1,0 +1,13 @@
+{
+    "/public/scripts/app.js": "/public/scripts/app.js",
+    "/app.js": "/app.js",
+    "/public/style/style.css": "/public/style/style.css",
+    "/public/assets/images/blog/article-1/article-1.jpg": "/public/assets/images/blog/article-1/article-1.jpg",
+    "/public/assets/images/blog/article-2/article-2.jpg": "/public/assets/images/blog/article-2/article-2.jpg",
+    "/public/assets/images/blog/article-3/article-3.jpg": "/public/assets/images/blog/article-3/article-3.jpg",
+    "/public/assets/images/blog/article-4/article-4.jpg": "/public/assets/images/blog/article-4/article-4.jpg",
+    "/public/assets/images/blog/article-5/article-5.jpg": "/public/assets/images/blog/article-5/article-5.jpg",
+    "/public/assets/images/blog/article-5/laptop.jpg": "/public/assets/images/blog/article-5/laptop.jpg",
+    "/public/assets/logo.svg": "/public/assets/logo.svg",
+    "/public/_redirects": "/public/_redirects"
+}
