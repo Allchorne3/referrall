@@ -3,6 +3,14 @@ layout: base.njk
 title: Example
 ---
 
-<div id="app">
-  <games-list></games-list>
+<div class="container is-medium">
+  <h1>Adam's List</h1>
+
+  <div id="app">
+    <referrals-list></referrals-list>
+  </div>
 </div>
+
+<script>
+window.referralsData = {{ referrals | dump | safe }};
+</script>

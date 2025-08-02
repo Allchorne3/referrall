@@ -1,0 +1,71 @@
+[
+	{
+		"id": 1,
+		"title": "Alibaba",
+		"link": "https://www.alibaba.com/x/AzZIyj?ck=activity",
+		"image": "/assets/images/referrals/alibaba.png",
+		"category": "Retail"
+	},
+	{
+		"id": 2,
+		"title": "Google opinion rewards",
+		"link": "https://googleopinionrewards.page.link/share",
+		"image": "/assets/images/referrals/google-opinion-rewards.png",
+		"category": "Online survey"
+	},
+	{
+		"id": 3,
+		"title": "Playtime",
+		"link": "https://play.sng.link/Ds1te/0760?psid=08b2d0a4-d4c2-4bb7-a60b-2ad6772fef38",
+		"category": "Gaming"
+	},
+	{
+		"id": 4,
+		"title": "Weare8",
+		"link": "https://click.weare8.com/zMp3/6eszn78b",
+		"category": "Social media"
+	},
+	{
+		"id": 5,
+		"title": "Streetbees",
+		"link": "https://streetbees.sng.link/Dr62p/d5hz",
+		"notes": "Code 7575BK.",
+		"category": "Online survey"
+	},
+	{
+		"id": 6,
+		"title": "Qmee",
+		"link": "https://qm.ee/7B8E5FDF",
+		"category": "Online survey"
+	},
+	{
+		"id": 7,
+		"title": "TopCashBack",
+		"link": "https://www.topcashback.co.uk/ref/thekokid0115/?source=App-Android-TAFPage",
+		"category": "Cashback"
+	},
+	{
+		"id": 8,
+		"title": "Paypal",
+		"link": "https://py.pl/1m4Ut7",
+		"category": "Finance"
+	},
+	{
+		"id": 9,
+		"title": "Whatnot",
+		"link": "https://whatnot.com/invite/thekokid0115",
+		"category": "Marketplace"
+	},
+	{
+		"id": 10,
+		"title": "Influence ",
+		"link": "https://bit.ly/4kTEny6",
+		"category": "Online survey"
+	},
+	{
+		"id": 11,
+		"title": "Dabble",
+		"link": "https://click.dabble.co.uk/W8Pb/szob9ycq",
+		"category": "Betting"
+	}
+] 

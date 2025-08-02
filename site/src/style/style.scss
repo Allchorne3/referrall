@@ -1,6 +1,7 @@
 @use 'abstracts/mixins';
 @use 'abstracts/variables';
 @use 'abstracts/utility';
+@use 'abstracts/special';
 
 @use 'base/reset';
 @use 'base/typography';
@@ -9,3 +10,5 @@
 
 @use 'sections/header';
 @use 'sections/footer';
+
+@use 'pages/index';

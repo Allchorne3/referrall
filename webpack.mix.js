@@ -1,4 +1,5 @@
 let mix = require('laravel-mix')
+const path = require('path')
 
 mix
 	// Directories
@@ -10,3 +11,12 @@ mix
 
 	// CSS
 	.sass('./site/src/style/style.scss', 'public/style/style.css')
+	
+	// Configure webpack alias
+	.webpackConfig({
+		resolve: {
+			alias: {
+				'@': path.resolve(__dirname, 'site/src')
+			}
+		}
+	})
