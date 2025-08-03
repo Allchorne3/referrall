@@ -68,7 +68,8 @@ export default {
 		filters: {
 			selectedCategories: []
 		},
-		referralsData: window.referralsData || []
+		referralsData: window.referralsData || [],
+		sortAsc: false
 	  };
 	},
 
@@ -76,15 +77,7 @@ export default {
 		appCategories() {
 			return [...new Set(this.referralsData.map(referral => referral.category))].sort();
 		},
-
-		categoryCounts() {
-			const counts = {};
-			this.referralsData.forEach(referral => {
-				counts[referral.category] = (counts[referral.category] || 0) + 1;
-			});
-			return counts;
-		},
-
+		
 		filteredReferrals() {
 			let results = this.referralsData;
 
@@ -96,11 +89,21 @@ export default {
 				results = fuse.search(this.searchInput).map(result => result.item)
 			}
 
-			return results.filter(referral => {
+			results = results.filter(referral => {
 				return (
 					(!this.filters.selectedCategories.length || this.filters.selectedCategories.includes(referral.category))
 				)
-			})
+			});
+
+			return results.sort((a, b) => a.title.localeCompare(b.title));
+		},
+
+		categoryCounts() {
+			const counts = {};
+			this.referralsData.forEach(referral => {
+				counts[referral.category] = (counts[referral.category] || 0) + 1;
+			});
+			return counts;
 		}
 	},
 
@@ -112,6 +115,10 @@ export default {
 			} else {
 				this.filters.selectedCategories.push(category);
 			}
+		},
+
+		alphabeticalReferrals(event) {
+			this.sortAsc = event.target.checked;
 		}
 	}
 };
